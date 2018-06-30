@@ -1,0 +1,540 @@
+body{
+	width: 100%;
+	height: auto;
+	background-color: #F8F9FA;
+}
+.state-model{
+	width: 1100px;
+	height: 907px;
+	
+	margin: 100px auto;
+	left: 0;
+	right: 0;
+	
+	
+}
+.stage-list{
+	position: relative;
+	width: 230px;
+	height: 607px;
+	float: left;
+	margin: 2% 0 0 2%;
+	 -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+  background-color: #ffffff;
+}
+.header{
+	position: relative;
+	width: 1300px;
+	top: 3.1%;
+}
+
+.header li{
+	position: relative;
+	float: left;
+	
+	width: 280px;
+	height: 150px;
+	margin-left: 27px;
+	-webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+	}
+.header li:nth-child(1){
+	position: relative;
+	background-image: url(../img/beijing.png);
+	background-size:cover;
+	
+}
+.header li:nth-child(2){
+	background-image: url(../img/shangxian.png);
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+}
+
+.header li:nth-child(3){
+	background-image: url(../img/zaixian.png);
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+}
+.header li h3{
+	position: relative;
+	font-size: 18px;
+	color: #FFFFFF;
+	opacity: 0.9;
+    margin: 10px 0 0 40px;
+    font-weight: 300;
+	
+}
+.header li p{
+	position: relative;
+	font-size: 28px;
+	color: #FFFFFF;
+	opacity: 0.9;
+	text-align: center;
+    margin-top: 48px;
+}
+
+.stage-list img{
+	width: 124px;
+	height: 132px;
+	margin: 15% auto;
+	display: flex;
+	align-content: center;
+	
+}
+.stage-list ul{
+	position: relative;
+	
+	top: 6%;
+}
+.stage-list li{
+	font-family: "MicrosoftYaHei";
+	width: 100%;
+	height: 55px;
+	border-bottom: .1px solid #EEEEEE;
+	border-top: .1px solid #EEEEEE;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 55px;
+	color: #333333;
+	cursor: pointer;
+	
+}
+.stage-list li:after{
+	position: absolute;
+	content: "";
+	background-image: url(../img/jiantou.png);
+	width: 9px;
+	height: 15px;
+	right: 25px;
+	
+margin: 10% auto;
+	}
+ .choose:before{
+ 	position: absolute;
+	content: "";
+	background-image: url(../img/xuanzhong.png);
+	width: 4px;
+	height: 55px;
+	left: 1px;
+    margin: 0 auto;
+ }
+ 
+.body{
+	width: 1300px;
+	height: 400px;
+	display: none;
+}
+.active{
+	display:block;
+	
+}
+.body .AgentPay{
+	float: left;
+	width: 880px;
+	height: auto;
+    -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+   margin-top:57px;
+   margin-left: 40px;
+background-color: #ffffff;
+position: relative;
+padding-bottom: 50px;
+}
+.body header{
+	border-width: 100%;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #999999;
+	padding: 20px 0 20px 20px;
+	
+	border-bottom: 1px solid silver;
+	display: flex;
+	
+	
+}
+.body header:before{
+	content: "";
+	height:24px;
+	width: 10px;
+	background-color: darkcyan;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.body .AgentPay ul{
+	         width:100%;
+            height:100px;
+            margin:20px auto;
+            display: -webkit-flex;
+            display:flex;
+            -webkit-justify-content: center;
+            align-items: center;
+            justify-content: center;
+	        border-bottom: 1px dashed  #CEE2C4;
+}
+.body .AgentPay li{
+	        width:100px;
+            height:40px;
+            padding: 6px 12px;
+            border:1px solid #F8F9FA;
+            margin: 0 30px 0 30px;
+            background: #E6E6E6;
+            line-height: 40px;
+            text-align: center;
+            color: #000000;
+            border-radius: 5px;
+            font-size: 14px;
+}
+.body .AgentPay li span{
+	font-size: 18px;
+	color: sandybrown;
+}
+.body .AgentPay li:hover{
+	border:1px solid #999999;
+	color: #ffffff;
+	-webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+}
+
+.coupon span:first-of-type{
+	color: #00000;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-left: 40px;
+}
+
+.coupon input{
+	width: 200px;
+	height: 40px;
+	border: .1px solid #999999;
+	font-size: 14px;
+	color: #E3E3E3;
+	padding-left: 20px;
+	margin-left: 10px;
+	
+}
+.coupon span:nth-of-type(2){
+	font-size: 16px;
+	margin-left: 20px;
+	padding: 10px 25px;
+	color:#FFFFFF;
+	background-color:#64bfff;
+	border-radius: 5px;
+}
+.coupon span:nth-of-type(3){
+	margin-left: 20px;
+}
+.coupon p:first-of-type{
+    font-size: 20px;
+    margin: 30px 0 0 40px;
+    
+}
+.coupon p:last-of-type{
+	color: darkorange;
+	font-size: 20px;
+	margin-left: 130px;
+	margin-top: -30px;
+}
+.coupon  p a{
+	
+	font-size: 24px;
+	
+}
+
+.UsePay p{
+	width: 120px;
+	height: 45px;
+	background:#64bfff;
+	cursor: pointer;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	margin: 20px 0 0 40px;
+	color: #ffffff;
+	font-size: 18px;
+}
+.UsePay input{
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.UsePay span{
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.UsePay span a{
+	color:#64bfff;
+}
+
+
+.body .OrderList{
+	float: left;
+	width: 880px;
+	height: auto;
+    -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+   margin-top:57px;
+   margin-left: 40px;
+background-color: #ffffff;
+  padding-bottom: 50px;
+}
+
+.body .OrderList table{
+	width: 100%;
+	border-collapse:collapse;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.body .OrderList table tr{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: .1px solid #E6E6E6;
+}
+
+.body .OrderList  td{
+	font-size: 12px;
+	color: #999999;
+	
+}
+.body .OrderList  tbody tr{
+	height: 90px;
+}
+.body .OrderList  table .hand{
+	
+	width: 80px;
+}
+.body .OrderList  table .money{
+	color:darkorange;
+	font-size: 16px;
+}
+.body .OrderList  table .hand p{
+    width: 66px;
+	
+	border-radius: 5px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	background-color: #ff656a;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+
+.body .UserList{
+	float: left;
+	width: 880px;
+	height: auto;
+    -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+   margin-top:57px;
+   margin-left: 40px;
+   background-color: #ffffff;
+padding-bottom: 100px;
+}
+.body .UserList .UserHead{
+	width: 100%;
+	height: 60px;
+	background-color: #64bfff;
+   
+	border-bottom: 1px dashed  #64bfff;
+	height:40px;
+    line-height: 40px;
+    -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+}
+
+
+
+
+.UserList .UserWidth{
+	width: 100%;
+            display: -webkit-flex;
+            display:flex;
+            -webkit-justify-content: center;
+            align-items: center;
+            justify-content: center;
+	        
+}
+
+.UserList .UserWidth li{
+	 float: left;
+	
+	margin: 0 10px 0 10px;
+	 
+	text-align: center;
+     color: #fff;
+}
+.UserList .UserWidth li:nth-child(1){
+	width: 40px;
+}
+.UserList .UserWidth li:nth-child(2){
+	width: 300px;
+}
+.UserList .UserWidth li:nth-child(3){
+	width: 70px;
+}
+.UserList .UserWidth li:nth-child(4){
+	width: 120px;
+}
+.UserList .UserWidth li:nth-child(5){
+	width: 90px;
+}
+.UserList .UserWidth li:nth-child(6){
+	width: 90px;
+}
+.body .UserList  .UserMessage {
+	height: 80px;
+	background-color: #F8F9FA;
+	margin: 10px 0 10px 0;
+	 -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+}
+.body .UserList  .UserMessage li{
+	font-size: 14px;
+	color: #333333;
+	height:80px;
+    line-height: 80px; 
+}
+.body .UserList  .UserMessage li img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid antiquewhite;
+}
+.body .UserList  .UserMessage li p{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 16px;
+	color: #999999;
+}
+.body .UserList  .UserMessage li:nth-child(5){
+	font-size: 28px;
+	color: #FF8C00;
+}
+.body .UserList  .UserMessage .state span {
+	font-size: 14px;
+	color: #ffffff;
+	padding: 5px 10px;
+	background-color: #ff656a;
+	border-radius: 50px;
+}
+
+.body .Account{
+	float: left;
+	width: 880px;
+	height: 420px;
+    -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+   margin-top:57px;
+   margin-left: 40px;
+background-color: #ffffff;
+}
+
+
+
+
+.container {
+	margin: 20px auto ;
+	
+    width: 600px;
+    height: 320px;
+   -webkit-box-shadow: #E6E6E6 0px 0px 20px;
+   -moz-box-shadow: #E6E6E6 0px 0px 20px;
+   box-shadow: #E6E6E6 0px 0px 20px;
+}
+.left {
+    width: 40%;
+    height: 100%;
+    display:block;
+    float: left;
+    background-image: url(../img/beijing.png); /*记得路径要这样写*/
+    background-size: cover;
+}
+.right {
+	
+    width: 60%;
+    height: 100%;
+    display: block;
+    float: right;
+    background-color: #F8F9FA;
+}
+.reg-label {
+    width: 100%
+    height: 40px;
+    text-align: center;
+}
+.reg-label label {
+    width: 200px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #4c4c4c;
+}
+.reg-box {
+    width: 100%;
+    height: 100px;
+}
+.reg-form {
+    width: 100%;
+    height: 100px;
+}
+.reg-form input {
+    width: 60%;
+    padding: 10px 10px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    outline: none;
+    color: #4c4c4c;
+}
+.reg-form div {
+    height: 40px;
+}
+.reg-sub {
+	margin: 20px auto;
+    width: 100%;
+    height: 70px;
+}
+.reg-sub input {
+    width: 66%;
+    font-size: 18px;
+    font-weight: 200;
+    background: transparent;
+    color: #4c4c4c;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    border-width: thin;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.bottom {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.reg-form label {
+    font-size: 12px;
+    line-height: 40px;
+    color: #ff461f;
+}
